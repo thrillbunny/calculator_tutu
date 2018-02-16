@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Calculat_tutu</title>
+  <link rel="stylesheet" type="text/css" href="calculator.css">
+</head>
+<body>
+  <div class="center">
+    <h1>Html,Css,JavaScript_Calculator</h1>
+    <p id="demo"></p>
+    <form name="calculator">
+      <input type="button" id="clear" class="btn other" value="C" onclick="clearscreen()">
+      <input type="text" id="display">
+      <br>
+      <input type="button" class="btn num" value="7" onclick="gets(this.value)">
+      <input type="button" class="btn num" value="8" onclick="gets(this.value)">
+      <input type="button" class="btn num" value="9" onclick="gets(this.value)">
+      <input type="button" class="btn cal" value="+" onclick="gets(this.value)">
+      <br>
+      <input type="button" class="btn num" value="4" onclick="gets(this.value)">
+      <input type="button" class="btn num" value="5" onclick="gets(this.value)">
+      <input type="button" class="btn num" value="6" onclick="gets(this.value)">
+      <input type="button" class="btn cal" value="-" onclick="gets(this.value)">
+      <br>
+      <input type="button" class="btn num" value="1" onclick="gets(this.value)">
+      <input type="button" class="btn num" value="2" onclick="gets(this.value)">
+      <input type="button" class="btn num" value="3" onclick="gets(this.value)">
+      <input type="button" class="btn cal" value="*" onclick="gets(this.value)">
+      <br>
+      <input type="button" class="btn num" value="0" onclick="gets(this.value)">
+      <input type="button" class="btn cal" value="." onclick="gets(this.value)">
+      <input type="button" class="btn cal" value="/" onclick="gets(this.value)">
+      <input type="button" class="btn other" value="=" onclick="calculates()">
+    </form>
+  </div>
+  <script type="text/javascript" src="calculator.js"></script>
+</body>
+</html>
